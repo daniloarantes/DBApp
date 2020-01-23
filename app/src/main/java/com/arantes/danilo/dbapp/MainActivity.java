@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+
     private Button buttonCadastrar;
     private Button buttonVisualizar;
 
@@ -17,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
         buttonCadastrar = (Button) findViewById(R.id.buttonCadastrar);
         buttonVisualizar = (Button) findViewById(R.id.buttonVisualizar);
-
 
         buttonCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
